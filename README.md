@@ -15,7 +15,7 @@ sh INDOsploit-V5.sh
 msfconsole 
 ```
 ### INDOnimous Homeland Scurity
-•Untuk menjalankan Terminal Ketik ```fish msfconsole ```
-•Untuk membuat payload ```fish msfvenom ```
+•Untuk menjalankan Terminal Ketik ```msfconsole ```<br>
+•Untuk membuat payload ```msfvenom ```
 
 
