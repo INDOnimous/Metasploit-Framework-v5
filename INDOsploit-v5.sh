@@ -1,6 +1,4 @@
 #!/use/etc/Bash
-if
-then
 figlet INDOsploit.sh | lolcat 
 ppkg install unstable-repo 
 pkg install metasploit
@@ -12,4 +10,4 @@ sleep 2
 echo "OFFICIAL INDOnimous"
 sleep 2
 msfconsole
-fi
+
